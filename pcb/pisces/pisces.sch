@@ -96,17 +96,6 @@ Reset Circuit
 Text Notes 900  5625 2    50   Italic 0
 Pro Micro
 $Comp
-L kbd:ProMicro U1
-U 1 1 5FB09374
-P 2125 6925
-F 0 "U1" H 2125 7762 60  0000 C CNN
-F 1 "ProMicro" H 2125 7656 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" H 2225 5875 60  0001 C CNN
-F 3 "" H 2225 5875 60  0000 C CNN
-	1    2125 6925
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5FB0BD23
 P 600 6700
@@ -796,12 +785,6 @@ Text GLabel 1300 7075 0    50   Input Italic 0
 row1
 Text GLabel 1300 7175 0    50   Input Italic 0
 row2
-Text GLabel 1300 7275 0    50   Input Italic 0
-row3
-Text GLabel 1300 7375 0    50   Input Italic 0
-row4
-Text GLabel 1300 7475 0    50   Input Italic 0
-row5
 Text GLabel 2925 6775 2    50   Input Italic 0
 col0
 Text GLabel 2925 6875 2    50   Input Italic 0
@@ -836,15 +819,23 @@ Wire Wire Line
 	1300 7075 1425 7075
 Wire Wire Line
 	1300 7175 1425 7175
-Wire Wire Line
-	1300 7375 1425 7375
-Wire Wire Line
-	1300 7475 1425 7475
-Wire Wire Line
-	1300 7275 1425 7275
 NoConn ~ 2825 6375
 NoConn ~ 2825 7475
 NoConn ~ 1425 6875
 NoConn ~ 1425 6775
 NoConn ~ 1425 6475
+$Comp
+L kbd:ProMicro U1
+U 1 1 5FB09374
+P 2125 6925
+F 0 "U1" H 2125 7762 60  0000 C CNN
+F 1 "ProMicro" H 2125 7656 60  0000 C CNN
+F 2 "Keebio-Parts:ArduinoProMicro" H 2225 5875 60  0001 C CNN
+F 3 "" H 2225 5875 60  0000 C CNN
+	1    2125 6925
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1425 7275
+NoConn ~ 1425 7375
+NoConn ~ 1425 7475
 $EndSCHEMATC
