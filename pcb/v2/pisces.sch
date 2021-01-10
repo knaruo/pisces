@@ -66,7 +66,7 @@ Text GLabel 9275 925  1    50   Input Italic 0
 col6
 Wire Wire Line
 	9275 925  9275 2550
-Text GLabel 6225 5925 2    50   Input Italic 0
+Text GLabel 6225 4825 2    50   Input Italic 0
 col6
 Text Notes 3175 3175 2    50   Italic 0
 Audio Jack for Serial Comm
@@ -116,7 +116,7 @@ Wire Wire Line
 	2650 3575 2900 3575
 Wire Wire Line
 	2900 3575 2900 3475
-Text GLabel 6225 5825 2    50   Input Italic 0
+Text GLabel 6225 5325 2    50   Input Italic 0
 data
 $Comp
 L kbd:SW_PUSH RSTSW1
@@ -154,21 +154,21 @@ Text Notes 2650 650  0    50   Italic 0
 Switch Matrix
 Text GLabel 6225 5125 2    50   Input Italic 0
 row0
-Text GLabel 6225 5225 2    50   Input Italic 0
-row1
-Text GLabel 6225 5325 2    50   Input Italic 0
-row2
-Text GLabel 6225 6025 2    50   Input Italic 0
-col0
-Text GLabel 6225 6125 2    50   Input Italic 0
-col1
-Text GLabel 6225 6225 2    50   Input Italic 0
-col2
 Text GLabel 6225 4125 2    50   Input Italic 0
-col3
+row1
+Text GLabel 6225 5425 2    50   Input Italic 0
+row2
 Text GLabel 6225 4225 2    50   Input Italic 0
-col4
+col0
 Text GLabel 6225 4325 2    50   Input Italic 0
+col1
+Text GLabel 6225 4425 2    50   Input Italic 0
+col2
+Text GLabel 6225 4525 2    50   Input Italic 0
+col3
+Text GLabel 6225 4625 2    50   Input Italic 0
+col4
+Text GLabel 6225 4725 2    50   Input Italic 0
 col5
 $Comp
 L MCU_Microchip_ATmega:ATmega32U2-AU U1
@@ -219,12 +219,7 @@ Connection ~ 5425 3825
 Wire Wire Line
 	6125 5125 6225 5125
 Wire Wire Line
-	6125 5225 6225 5225
-Wire Wire Line
-	6125 5325 6225 5325
-Wire Wire Line
 	4575 4125 4725 4125
-NoConn ~ 6125 5425
 NoConn ~ 6125 5625
 $Comp
 L Connector:USB_B_Micro J1
@@ -517,7 +512,6 @@ F 3 "" H 950 6800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  6600 950  6800
-NoConn ~ 6125 4625
 $Comp
 L Device:R_Small R4
 U 1 1 601EE670
@@ -546,28 +540,8 @@ Wire Wire Line
 	6200 6325 6200 6400
 Wire Wire Line
 	6200 6600 6200 6650
-Wire Wire Line
-	6125 4325 6225 4325
-Wire Wire Line
-	6125 4225 6225 4225
-Wire Wire Line
-	6125 4125 6225 4125
-Wire Wire Line
-	6125 6225 6225 6225
-Wire Wire Line
-	6125 6025 6225 6025
-Wire Wire Line
-	6125 6125 6225 6125
-NoConn ~ 6125 4425
-NoConn ~ 6125 4525
-NoConn ~ 6125 4725
-NoConn ~ 6125 4825
 NoConn ~ 6125 5025
 NoConn ~ 6125 5725
-Wire Wire Line
-	6125 5925 6225 5925
-Wire Wire Line
-	6125 5825 6225 5825
 Text GLabel 8400 925  1    50   Input Italic 0
 col5
 Text GLabel 7525 925  1    50   Input Italic 0
@@ -1162,4 +1136,30 @@ F 3 "" H 1175 1000 50  0001 C CNN
 	1    1175 1000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6125 5325 6225 5325
+Wire Wire Line
+	6125 5425 6225 5425
+NoConn ~ 6125 5825
+Wire Wire Line
+	6125 4825 6225 4825
+NoConn ~ 6125 5925
+Wire Wire Line
+	6125 4725 6225 4725
+Wire Wire Line
+	6125 4625 6225 4625
+Wire Wire Line
+	6125 4525 6225 4525
+Wire Wire Line
+	6125 4425 6225 4425
+NoConn ~ 6125 6225
+Wire Wire Line
+	6125 4325 6225 4325
+NoConn ~ 6125 6125
+NoConn ~ 6125 6025
+Wire Wire Line
+	6125 4225 6225 4225
+Wire Wire Line
+	6125 4125 6225 4125
+NoConn ~ 6125 5225
 $EndSCHEMATC
