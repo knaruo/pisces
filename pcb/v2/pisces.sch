@@ -116,7 +116,7 @@ Wire Wire Line
 	2650 3575 2900 3575
 Wire Wire Line
 	2900 3575 2900 3475
-Text GLabel 6225 5325 2    50   Input Italic 0
+Text GLabel 6225 5825 2    50   Input Italic 0
 data
 $Comp
 L kbd:SW_PUSH RSTSW1
@@ -1137,10 +1137,7 @@ F 3 "" H 1175 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6125 5325 6225 5325
-Wire Wire Line
 	6125 5425 6225 5425
-NoConn ~ 6125 5825
 Wire Wire Line
 	6125 4825 6225 4825
 NoConn ~ 6125 5925
@@ -1152,7 +1149,6 @@ Wire Wire Line
 	6125 4525 6225 4525
 Wire Wire Line
 	6125 4425 6225 4425
-NoConn ~ 6125 6225
 Wire Wire Line
 	6125 4325 6225 4325
 NoConn ~ 6125 6125
@@ -1162,4 +1158,37 @@ Wire Wire Line
 Wire Wire Line
 	6125 4125 6225 4125
 NoConn ~ 6125 5225
+Text Notes 6950 4850 0    50   ~ 0
+NOTE:\n1. data (serial to other hand) needs to be connected to INT*:\nD0,D1,D2,D3, (probably C7,D4,D6 too?)\n\n2. HWB (D7) need to be grounded through pull-down resistor\nto force start from boot loader.\n\n3. PD6 is reserved and is connected to pull-down resistor\nso if split-hand indicator EEPROM is not working then\nthis pin is to indicate whether this is master or slave.\n\n4. Other GPIO pins (row*, col*) are selected to simplify routing on PCB.
+Wire Wire Line
+	6125 5825 6225 5825
+NoConn ~ 6125 5325
+$Comp
+L Device:R_Small RR1
+U 1 1 600CEBFB
+P 6500 6500
+F 0 "RR1" H 6559 6546 50  0000 L CNN
+F 1 "10k" H 6559 6455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6500 6500 50  0001 C CNN
+F 3 "~" H 6500 6500 50  0001 C CNN
+	1    6500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600CF505
+P 6500 6650
+F 0 "#PWR?" H 6500 6400 50  0001 C CNN
+F 1 "GND" H 6505 6477 50  0000 C CNN
+F 2 "" H 6500 6650 50  0001 C CNN
+F 3 "" H 6500 6650 50  0001 C CNN
+	1    6500 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 6600 6500 6650
+Wire Wire Line
+	6125 6225 6500 6225
+Wire Wire Line
+	6500 6225 6500 6400
 $EndSCHEMATC
