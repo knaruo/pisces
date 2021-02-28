@@ -65,7 +65,7 @@ Wire Wire Line
 Text GLabel 9275 925  1    50   Input Italic 0
 col6
 Wire Wire Line
-	9275 925  9275 2550
+	9275 925  9275 1925
 Text GLabel 6225 4825 2    50   Input Italic 0
 col6
 Text Notes 3175 3175 2    50   Italic 0
@@ -110,12 +110,8 @@ Wire Wire Line
 	2750 3675 2750 3900
 Wire Wire Line
 	2650 3775 2900 3775
-Text GLabel 2900 3475 2    50   Input Italic 0
+Text GLabel 3250 3575 2    50   Input Italic 0
 data
-Wire Wire Line
-	2650 3575 2900 3575
-Wire Wire Line
-	2900 3575 2900 3475
 Text GLabel 6225 5825 2    50   Input Italic 0
 data
 $Comp
@@ -1159,36 +1155,59 @@ Wire Wire Line
 	6125 4125 6225 4125
 NoConn ~ 6125 5225
 Text Notes 6950 4850 0    50   ~ 0
-NOTE:\n1. data (serial to other hand) needs to be connected to INT*:\nD0,D1,D2,D3, (probably C7,D4,D6 too?)\n\n2. HWB (D7) need to be grounded through pull-down resistor\nto force start from boot loader.\n\n3. PD6 is reserved and is connected to pull-down resistor\nso if split-hand indicator EEPROM is not working then\nthis pin is to indicate whether this is master or slave.\n\n4. Other GPIO pins (row*, col*) are selected to simplify routing on PCB.
+NOTE:\n1. data (serial to other hand) needs to be connected to INT*:\nD0,D1,D2,D3, (probably C7,D4,D6 too?)\n\n2. HWB (D7) need to be grounded through pull-down resistor\nto force start from boot loader.\n\n3. Other GPIO pins (row*, col*) are selected to simplify routing on PCB.
 Wire Wire Line
 	6125 5825 6225 5825
 NoConn ~ 6125 5325
 $Comp
-L Device:R_Small RR1
-U 1 1 600CEBFB
-P 6500 6500
-F 0 "RR1" H 6559 6546 50  0000 L CNN
-F 1 "10k" H 6559 6455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6500 6500 50  0001 C CNN
-F 3 "~" H 6500 6500 50  0001 C CNN
-	1    6500 6500
+L Device:D D_H1
+U 1 1 603BE437
+P 9875 2075
+F 0 "D_H1" V 9921 1995 50  0000 R CNN
+F 1 "D" V 9830 1995 50  0000 R CNN
+F 2 "kbd:D3_SMD" H 9875 2075 50  0001 C CNN
+F 3 "~" H 9875 2075 50  0001 C CNN
+	1    9875 2075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 2225 9875 2225
+Connection ~ 9000 2225
+Wire Wire Line
+	9875 1925 9275 1925
+Connection ~ 9275 1925
+Wire Wire Line
+	9275 1925 9275 2550
+Wire Wire Line
+	2650 3575 3150 3575
+$Comp
+L power:GND #PWR0108
+U 1 1 603CFDA7
+P 3150 3900
+F 0 "#PWR0108" H 3150 3650 50  0001 C CNN
+F 1 "GND" H 3155 3727 50  0000 C CNN
+F 2 "" H 3150 3900 50  0001 C CNN
+F 3 "" H 3150 3900 50  0001 C CNN
+	1    3150 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 600CF505
-P 6500 6650
-F 0 "#PWR?" H 6500 6400 50  0001 C CNN
-F 1 "GND" H 6505 6477 50  0000 C CNN
-F 2 "" H 6500 6650 50  0001 C CNN
-F 3 "" H 6500 6650 50  0001 C CNN
-	1    6500 6650
+L Device:R_Small R5
+U 1 1 603D0C12
+P 3150 3750
+F 0 "R5" H 3209 3796 50  0000 L CNN
+F 1 "10k" H 3209 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3150 3750 50  0001 C CNN
+F 3 "~" H 3150 3750 50  0001 C CNN
+	1    3150 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 6600 6500 6650
+	3150 3900 3150 3850
 Wire Wire Line
-	6125 6225 6500 6225
+	3150 3650 3150 3575
+Connection ~ 3150 3575
 Wire Wire Line
-	6500 6225 6500 6400
+	3150 3575 3250 3575
+NoConn ~ 6125 6225
 $EndSCHEMATC
