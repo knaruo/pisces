@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pisces_v2)(type KiCad)(uri ${KIPRJMOD}/pisces_v2.pretty)(options "")(descr ""))
+)
