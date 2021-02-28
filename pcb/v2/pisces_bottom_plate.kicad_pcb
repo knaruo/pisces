@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/pcb/"))
+      (outputdirectory "gerber/bottom_plate/"))
   )
 
   (net 0 "")
@@ -184,7 +184,7 @@
   (gr_line (start 41.529 99.06) (end 174.244 99.06) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 38.989 41.529) (end 38.989 96.52) (layer Edge.Cuts) (width 0.05))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 600DFA30) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -266,7 +266,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.Cu) (tstamp 600DFA2D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
