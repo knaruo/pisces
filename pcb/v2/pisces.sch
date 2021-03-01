@@ -1210,4 +1210,8 @@ Connection ~ 3150 3575
 Wire Wire Line
 	3150 3575 3250 3575
 NoConn ~ 6125 6225
+Text Notes 3400 3900 0    50   ~ 0
+NOTE:\nR5 is for \nterminate resistor
+Text Notes 9825 1875 0    50   ~ 0
+NOTE:\nD_H1 is used for handness.\n(SPLIT_HAND_MATRIX_GRID).\nNeed to implement only one hand.
 $EndSCHEMATC

@@ -1155,7 +1155,7 @@ Wire Wire Line
 	6125 4125 6225 4125
 NoConn ~ 6125 5225
 Text Notes 6950 4850 0    50   ~ 0
-NOTE:\n1. data (serial to other hand) needs to be connected to INT*:\nD0,D1,D2,D3, (probably C7,D4,D6 too?)\n\n2. HWB (D7) need to be grounded through pull-down resistor\nto force start from boot loader.\n\n3. PD6 is reserved and is connected to pull-down resistor\nso if split-hand indicator EEPROM is not working then\nthis pin is to indicate whether this is master or slave.\n\n4. Other GPIO pins (row*, col*) are selected to simplify routing on PCB.
+NOTE:\n1. data (serial to other hand) needs to be connected to INT*:\nD0,D1,D2,D3, (probably C7,D4,D6 too?)\n\n2. HWB (D7) need to be grounded through pull-down resistor\nto force start from boot loader.\n\n3. Other GPIO pins (row*, col*) are selected to simplify routing on PCB.
 Wire Wire Line
 	6125 5825 6225 5825
 NoConn ~ 6125 5325
@@ -1210,4 +1210,8 @@ Connection ~ 3150 3575
 Wire Wire Line
 	3150 3575 3250 3575
 NoConn ~ 6125 6225
+Text Notes 3375 3825 0    50   ~ 0
+NOTE:\nR5 is for terminate resistor
+Text Notes 9825 1875 0    50   ~ 0
+NOTE:\nD_H1 is used for handness.\n(SPLIT_HAND_MATRIX_GRID).\nNeed to implement only one hand.
 $EndSCHEMATC
