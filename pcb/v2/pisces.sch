@@ -1178,40 +1178,9 @@ Wire Wire Line
 Connection ~ 9275 1925
 Wire Wire Line
 	9275 1925 9275 2550
-Wire Wire Line
-	2650 3575 3150 3575
-$Comp
-L pisces-rescue:GND-power #PWR0108
-U 1 1 603CFDA7
-P 3150 3900
-F 0 "#PWR0108" H 3150 3650 50  0001 C CNN
-F 1 "GND" H 3155 3727 50  0000 C CNN
-F 2 "" H 3150 3900 50  0001 C CNN
-F 3 "" H 3150 3900 50  0001 C CNN
-	1    3150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pisces-rescue:R_Small-Device R5
-U 1 1 603D0C12
-P 3150 3750
-F 0 "R5" H 3209 3796 50  0000 L CNN
-F 1 "10k" H 3209 3705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3150 3750 50  0001 C CNN
-F 3 "~" H 3150 3750 50  0001 C CNN
-	1    3150 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 3900 3150 3850
-Wire Wire Line
-	3150 3650 3150 3575
-Connection ~ 3150 3575
-Wire Wire Line
-	3150 3575 3250 3575
 NoConn ~ 6125 6225
-Text Notes 3400 3900 0    50   ~ 0
-NOTE:\nR5 is for \nterminate resistor
 Text Notes 9825 1875 0    50   ~ 0
 NOTE:\nD_H1 is used for handness.\n(SPLIT_HAND_MATRIX_GRID).\nNeed to implement only one hand.
+Wire Wire Line
+	2650 3575 3250 3575
 $EndSCHEMATC
