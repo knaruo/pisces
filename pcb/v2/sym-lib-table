@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pisces-rescue)(type Legacy)(uri ${KIPRJMOD}/pisces-rescue.lib)(options "")(descr ""))
+)
