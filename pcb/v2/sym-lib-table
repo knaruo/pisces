@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "pisces-rescue")(type "KiCad")(uri "${KIPRJMOD}/pisces-rescue.kicad_sym")(options "")(descr ""))
-)
