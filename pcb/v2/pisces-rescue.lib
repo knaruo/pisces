@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# pisces-rescue_ATmega32U2-AU-MCU_Microchip_ATmega
+# ATmega32U2-AU-MCU_Microchip_ATmega
 #
-DEF pisces-rescue_ATmega32U2-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF ATmega32U2-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -600 1350 50 H V L BNN
-F1 "pisces-rescue_ATmega32U2-AU-MCU_Microchip_ATmega" 100 -1350 50 H V L TNN
+F1 "ATmega32U2-AU-MCU_Microchip_ATmega" 100 -1350 50 H V L TNN
 F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -48,11 +48,11 @@ X PD3 9 700 -700 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_AudioJack4-Connector
+# AudioJack4-Connector
 #
-DEF pisces-rescue_AudioJack4-Connector J 0 20 Y Y 1 F N
+DEF AudioJack4-Connector J 0 20 Y Y 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "pisces-rescue_AudioJack4-Connector" 0 250 50 H V C CNN
+F1 "AudioJack4-Connector" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -72,11 +72,11 @@ X ~ T 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_C-Device
+# C-Device
 #
-DEF pisces-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pisces-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -90,11 +90,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_C_Small-Device
+# C_Small-Device
 #
-DEF pisces-rescue_C_Small-Device C 0 10 N N 1 F N
+DEF C_Small-Device C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "pisces-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F1 "C_Small-Device" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -108,11 +108,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_Crystal_GND24_Small-Device
+# Crystal_GND24_Small-Device
 #
-DEF pisces-rescue_Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
+DEF Crystal_GND24_Small-Device Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "pisces-rescue_Crystal_GND24_Small-Device" 50 100 50 H V L CNN
+F1 "Crystal_GND24_Small-Device" 50 100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -131,11 +131,11 @@ X 4 4 0 100 25 D 30 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_D-Device
+# D-Device
 #
-DEF pisces-rescue_D-Device D 0 40 N N 1 F N
+DEF D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "pisces-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -153,11 +153,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_GND-power
+# GND-power
 #
-DEF pisces-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "pisces-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -166,11 +166,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF pisces-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "pisces-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -179,11 +179,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_Polyfuse_Small-Device
+# Polyfuse_Small-Device
 #
-DEF pisces-rescue_Polyfuse_Small-Device F 0 0 N Y 1 F N
+DEF Polyfuse_Small-Device F 0 0 N Y 1 F N
 F0 "F" -75 0 50 V V C CNN
-F1 "pisces-rescue_Polyfuse_Small-Device" 75 0 50 V V C CNN
+F1 "Polyfuse_Small-Device" 75 0 50 V V C CNN
 F2 "" 50 -200 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -199,11 +199,11 @@ X ~ 2 0 -100 25 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_R-Device
+# R-Device
 #
-DEF pisces-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "pisces-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -216,11 +216,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_R_Small-Device
+# R_Small-Device
 #
-DEF pisces-rescue_R_Small-Device R 0 10 N N 1 F N
+DEF R_Small-Device R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "pisces-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F1 "R_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -233,11 +233,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_SW_PUSH-kbd
+# SW_PUSH-kbd
 #
-DEF pisces-rescue_SW_PUSH-kbd SW 0 40 N N 1 F N
+DEF SW_PUSH-kbd SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "pisces-rescue_SW_PUSH-kbd" 0 -80 50 H V C CNN
+F1 "SW_PUSH-kbd" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -248,11 +248,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF pisces-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "pisces-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -283,11 +283,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pisces-rescue_VCC-power
+# VCC-power
 #
-DEF pisces-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+DEF VCC-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "pisces-rescue_VCC-power" 0 150 50 H V C CNN
+F1 "VCC-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
