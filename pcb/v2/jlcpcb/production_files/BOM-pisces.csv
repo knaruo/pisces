@@ -1,0 +1,10 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1u,"C3,C6",C_0402_1005Metric,C1546,2
+22p,"C1,C2",C_0402_1005Metric,C1555,2
+1u,C5,C_0603_1608Metric,C15849,1
+10u,C4,C_0805_2012Metric,C15850,1
+22,"R1,R2",R_0603_1608Metric,C23345,2
+10k,"R3,R4",R_0603_1608Metric,C25804,2
+Crystal_GND24_Small,Y1,Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm,C362342,1
+Polyfuse_Small,F1,RESC1206X70N,C720075,1
+USB_B_Micro,J1,HRS_ZX62R-B-5P,,1

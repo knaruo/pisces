@@ -824,6 +824,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1555"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ed31620d-6a86-4eba-ac68-b5296c9b94d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006005b804")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -1025,6 +1037,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "040cb351-7d6b-42be-977e-159940e2310a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1555"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6d65f923-cdd3-4cb6-b68b-4751454aa333")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,6 +1264,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "029640f5-cbad-4531-abad-197b71ed88a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006001ffa2")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -1441,6 +1477,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eff4dea3-6f6e-45ac-8dab-bf0eed9646da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c7920cd8-31ae-4046-aff3-9b3e1b27a013")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,6 +1704,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7982e700-b518-41b8-9e7b-a22177273e6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006009f0d2")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -1864,6 +1924,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6d33c9df-a6d9-4242-bc17-476d8210b41b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006009fc11")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -2063,6 +2135,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f72c7b14-5526-4881-8c63-b0fad7c79c1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C720075"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab09f6f0-1f0d-43b6-a9fe-62b5bfd4bf58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,6 +3047,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "31a2c723-6ba1-43dc-a7b6-e21e5e64b427")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005ffbf5a3")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -3164,6 +3260,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad955315-2e21-4726-bb50-5849048c1734")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23345"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "98d66797-1e1e-4f5d-a664-e1b7983534c0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,6 +3487,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c7939ced-c13e-4a60-bc82-0cdb700ed358")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-000060006733")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -3580,6 +3700,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b659433-9141-447d-b5f4-e7b14ea2ced4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2aec90af-5724-4cb1-84e5-75ae91e1bc36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3929,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fa1")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -4228,7 +4360,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb18c74")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -4659,7 +4791,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fa5")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -5090,7 +5222,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55dc6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -5521,7 +5653,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55dd3")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -5952,7 +6084,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55de0")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -6383,7 +6515,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fad")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -6814,7 +6946,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5faf")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -7245,7 +7377,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb1")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -7676,7 +7808,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb3")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -8107,7 +8239,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb5")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -8538,7 +8670,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb7")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -8969,7 +9101,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb73a4d")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -9400,7 +9532,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb73a5a")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -9831,7 +9963,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fbd")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -10262,7 +10394,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb778c0")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -10693,7 +10825,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb778cd")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -11124,7 +11256,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fc3")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -11555,7 +11687,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fbed5c6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6.1 -4.85)
 			(end -6.1 -0.905)
@@ -11986,7 +12118,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ff02ad2")
 		(sheetfile "pisces.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.625 -3.625)
 			(end -3.625 -3.4)
@@ -12542,6 +12674,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C362342"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eaba2722-5419-4cb1-bb71-58f66cbb02fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00006003156e")
 		(sheetfile "pisces.kicad_sch")
 		(attr smd)
@@ -12821,7 +12965,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fca681c")
 		(sheetfile "pisces.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.15 3.1)
 			(end -6.375 3.1)
@@ -13288,7 +13432,7 @@
 		)
 		(path "/00000000-0000-0000-0000-0000603be437")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end -2.7 0.75)
@@ -13561,7 +13705,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb0777a")
 		(sheetfile "pisces.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.7 -1.45)
 			(end -1.7 1.45)
@@ -13789,7 +13933,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fa2")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -14094,7 +14238,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fa4")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -14399,7 +14543,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fa6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -14704,7 +14848,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fae")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -15009,7 +15153,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb0")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -15314,7 +15458,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb4")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -15619,7 +15763,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -15924,7 +16068,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fb8")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -16229,7 +16373,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fbc")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -16534,7 +16678,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fbe")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -16839,7 +16983,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fc2")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -17144,7 +17288,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005ffa5fc4")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -17449,7 +17593,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55dcc")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -17754,7 +17898,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55dd9")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -18059,7 +18203,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb55de6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -18364,7 +18508,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb59aaa")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -18669,7 +18813,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb73a53")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -18974,7 +19118,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fb778c6")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
@@ -19279,7 +19423,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005fbed5cc")
 		(sheetfile "pisces.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.7 -0.75)
 			(end 2.7 -0.75)
