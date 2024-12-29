@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name pisces-rescue)(type Legacy)(uri ${KIPRJMOD}/pisces-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "kbd")(type "Legacy")(uri "${KIPRJMOD}/custom_symbols/kbd.lib")(options "")(descr ""))
 )
